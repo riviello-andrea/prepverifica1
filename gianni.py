@@ -27,3 +27,9 @@ else:
         print(y)
         print(x)
 print("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
+auto=["Ferrari", "Audi", "Lancia", "Mercedes", "Cupra"]
+moto=["BMW", "KTM", "Ducati", "Aprilia"]
+motocicli=auto+moto
+motocicli.sort()
+print(motocicli)
+print("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
