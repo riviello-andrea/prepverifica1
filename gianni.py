@@ -33,3 +33,11 @@ motocicli=auto+moto
 motocicli.sort()
 print(motocicli)
 print("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
+lista=[]
+for i in range(50):
+  lista.append(random.randint(1,1000))  
+for x in lista:
+    if x%2==0:
+        lista.remove(x)
+print(lista)
+print("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
