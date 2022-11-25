@@ -41,3 +41,13 @@ for x in lista:
         lista.remove(x)
 print(lista)
 print("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
+lista=[]
+n=0
+for i in range (50):
+    lista.append(random.randint(1,100))
+for x in lista:
+    if x>50 and x<10:
+        print(x)
+        n=n+1
+stampa(n)
+print("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
